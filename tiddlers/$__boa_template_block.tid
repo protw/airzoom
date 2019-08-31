@@ -1,5 +1,5 @@
 created: 20171117182854066
-modified: 20190712212109149
+modified: 20190831080328602
 tags: 
 title: $:/boa/template/block
 type: text/vnd.tiddlywiki
@@ -28,7 +28,7 @@ type: text/vnd.tiddlywiki
 <div style="height:160px;" class="wrapper exmp3">
 <a class="showcaseblock" href={{!!web}} target="_blank"><$image source={{!!title}} tooltip={{!!name}}/></a>
 </div>
-<div style="height:40px;overflow:hidden;text-overflow:ellipsis;font-size:small;font-family:Arial;">
+<div style="height:40px;overflow:hidden;text-overflow:ellipsis;font-size:medium;font-family:Arial;">
 <a class="showcaseblock" href={{!!web}}>{{!!name}}, {{!!country}}</a>
 </div>
 </div>
