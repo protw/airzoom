@@ -1,8 +1,8 @@
 created: 20190927133010061
-modified: 20190927152143492
+modified: 20190928143904684
 tags: Каталог
 title: Новини
 
 !! ''Всі новини на сайті''
 
-{{{ [tag[Новини]!sort[created]] }}}
+<<list-links filter:"[tag[Новини]!sort[created]]">>
