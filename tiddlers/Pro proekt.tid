@@ -1,5 +1,5 @@
 created: 20190924175909413
-modified: 20190927152354358
+modified: 20190929081716769
 tags: Каталог
 title: Про проект
 
@@ -26,7 +26,7 @@ title: Про проект
 Кількість публікацій у списку: <$count filter="[tag[Про проект]]"/>.
 
 <ol>
-<$list filter="[tag[Про проект]!sort[pub-date]]">
+<$list filter="[!has[draft.of]tag[Про проект]!sort[pub-date]]">
 <li>
 {{||$:/boa/template/publication}} (<$link tooltip="Відкрити тідлер для перегляду / редагування / видалення">відкрити</$link>)
 </li>
