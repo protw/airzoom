@@ -1,10 +1,10 @@
 created: 20190924175909413
-modified: 20191017170517649
+modified: 20191020124355538
 tags: Каталог
 title: Про проект
 
 !! ''Створити нове посилання на публікацію про проект''
-
+ 
 <$button>
 <$action-sendmessage 
     $message="tm-new-tiddler" 
