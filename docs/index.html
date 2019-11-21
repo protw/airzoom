@@ -148,6 +148,16 @@ Error message and password prompt
 
 <li>$:/boa/css/wrapper.css</li>
 
+<li>$:/boa/img/fa5/exclamation-triangle.svg</li>
+
+<li>$:/boa/img/fa5/hand-paper.svg</li>
+
+<li>$:/boa/img/fa5/info-circle.svg</li>
+
+<li>$:/boa/img/fa5/list-alt.svg</li>
+
+<li>$:/boa/img/fa5/thumb-up.svg</li>
+
 <li>$:/boa/img/github-logo.svg</li>
 
 <li>$:/boa/img/projhub-logo.svg</li>
@@ -159,6 +169,8 @@ Error message and password prompt
 <li>$:/boa/logo-edit</li>
 
 <li>$:/boa/macro/edit-logo</li>
+
+<li>$:/boa/macro/info-blocks</li>
 
 <li>$:/boa/macro/wiki-list</li>
 
@@ -244,6 +256,16 @@ Error message and password prompt
 
 <li>EcoCityMap.png</li>
 
+<li>img-airly-map.png</li>
+
+<li>img-business-model-AIRQM.svg</li>
+
+<li>img-detection-scheme.png</li>
+
+<li>img-pm-lidar-detection.png</li>
+
+<li>img-video-surveillance.png</li>
+
 <li>KyivSmartCity.png</li>
 
 <li>org</li>
@@ -291,6 +313,8 @@ Error message and password prompt
 <li>partner/uRADMonitor-logo.jpg</li>
 
 <li>poltava-sensor.png</li>
+
+<li>Smart-city solution for air quality management of a metropolis</li>
 
 <li>SMS.png</li>
 
@@ -359,6 +383,21 @@ Error message and password prompt
     height: 200px;
     object-fit: contain;
 }</pre>
+</div>
+<div _canonical_uri="./images/%2524%253A%252Fboa%252Fimg%252Ffa5%252Fexclamation-triangle.svg" created="20190925111201096" modified="20190925173056781" title="$:/boa/img/fa5/exclamation-triangle.svg" type="image/svg+xml" revision="2" bag="default">
+<pre></pre>
+</div>
+<div _canonical_uri="./images/%2524%253A%252Fboa%252Fimg%252Ffa5%252Fhand-paper.svg" created="20190925172021781" modified="20190925172517343" title="$:/boa/img/fa5/hand-paper.svg" type="image/svg+xml" revision="2" bag="default">
+<pre></pre>
+</div>
+<div _canonical_uri="./images/%2524%253A%252Fboa%252Fimg%252Ffa5%252Finfo-circle.svg" created="20190925172555952" modified="20190925173024500" title="$:/boa/img/fa5/info-circle.svg" type="image/svg+xml" revision="2" bag="default">
+<pre></pre>
+</div>
+<div _canonical_uri="./images/%2524%253A%252Fboa%252Fimg%252Ffa5%252Flist-alt.svg" created="20190925172619308" modified="20190925173000109" title="$:/boa/img/fa5/list-alt.svg" type="image/svg+xml" revision="2" bag="default">
+<pre></pre>
+</div>
+<div _canonical_uri="./images/%2524%253A%252Fboa%252Fimg%252Ffa5%252Fthumb-up.svg" created="20190925171459106" modified="20190925172217166" title="$:/boa/img/fa5/thumb-up.svg" type="image/svg+xml" revision="2" bag="default">
+<pre></pre>
 </div>
 <div _canonical_uri="./images/%2524%253A%252Fboa%252Fimg%252Fgithub-logo.svg" created="20190712140412101" modified="20190712140430471" tags="" title="$:/boa/img/github-logo.svg" type="image/svg+xml" revision="2" bag="default">
 <pre></pre>
@@ -485,6 +524,52 @@ Error message and password prompt
 </div>
 <div created="20190716163007871" modified="20190716163948580" tags="$:/tags/Macro" title="$:/boa/macro/edit-logo" revision="0" bag="default">
 <pre>\define edit-logo() {{$:/boa/template/edit-logo}}</pre>
+</div>
+<div created="20190925174625266" modified="20190928130608950" tags="$:/tags/Macro" title="$:/boa/macro/info-blocks" revision="0" bag="default">
+<pre>\define alert-primary(text)
+&lt;&lt;alert primary text:&quot;&lt;div style='float:left;width:7%;'&gt;[img [$:/boa/img/fa5/list-alt.svg]]&lt;/div&gt;&lt;div style='float:left;width:90%;'&gt;$text$&lt;/div&gt;&lt;div style='clear:both;'/&gt;&quot; class:&quot;leftbar border-primary&quot;&gt;&gt;
+\end
+\define alert-danger(text)
+&lt;&lt;alert danger text:&quot;&lt;div style='float:left;width:7%;'&gt;[img [$:/boa/img/fa5/hand-paper.svg]]&lt;/div&gt;&lt;div style='float:left;width:90%;'&gt;$text$&lt;/div&gt;&lt;div style='clear:both;'/&gt;&quot; class:&quot;leftbar border-danger&quot;&gt;&gt;
+\end
+\define alert-warning(text)
+&lt;&lt;alert warning text:&quot;&lt;div style='float:left;width:7%;'&gt;[img [$:/boa/img/fa5/exclamation-triangle.svg]]&lt;/div&gt;&lt;div style='float:left;width:90%;'&gt;$text$&lt;/div&gt;&lt;div style='clear:both;'/&gt;&quot; class:&quot;leftbar border-warning&quot;&gt;&gt;
+\end
+\define alert-info(text)
+&lt;&lt;alert info text:&quot;&lt;div style='float:left;width:7%;'&gt;[img [$:/boa/img/fa5/info-circle.svg]]&lt;/div&gt;&lt;div style='float:left;width:90%;'&gt;$text$&lt;/div&gt;&lt;div style='clear:both;'/&gt;&quot; class:&quot;leftbar border-info&quot;&gt;&gt;
+\end
+\define alert-success(text)
+&lt;&lt;alert success text:&quot;&lt;div style='float:left;width:7%;'&gt;[img [$:/boa/img/fa5/thumb-up.svg]]&lt;/div&gt;&lt;div style='float:left;width:90%;'&gt;$text$&lt;/div&gt;&lt;div style='clear:both;'/&gt;&quot; class:&quot;leftbar border-success&quot;&gt;&gt;
+\end
+
+!! ''Інфоблоки з іконками''
+
+На базі плагіна [[Shiraz|$:/boa/custom-installed/shiraz]] побудовані більш наочні інфоблоки з іконками і простішим макро-викликом. Інфоблоки розташовані у [[$:/boa/macro/info-blocks]].
+
+Виклик макросів інфоблоків максимально спрощений і виглядає таким чином:
+
+```
+&lt;&lt;alert-primary &quot;вікі-текст&quot;&gt;&gt;
+&lt;&lt;alert-danger &quot;вікі-текст&quot;&gt;&gt;
+&lt;&lt;alert-warning &quot;вікі-текст&quot;&gt;&gt;
+&lt;&lt;alert-info &quot;вікі-текст&quot;&gt;&gt;
+&lt;&lt;alert-success &quot;вікі-текст&quot;&gt;&gt;
+```
+
+!!! PRIMARY
+&lt;&lt;alert-primary &quot;''Lorem Ipsum'' - це текст-'риба', що використовується в друкарстві та дизайні. //Lorem Ipsum// є, фактично, стандартною 'рибою' аж з XVI сторіччя, коли невідомий друкар взяв шрифтову гранку та склав на ній підбірку зразків шрифтів.&quot;&gt;&gt;
+
+!!! DANGER
+&lt;&lt;alert-danger &quot;'Риба' не тільки успішно пережила п'ять століть, але й прижилася в електронному верстуванні, залишаючись по суті незмінною.&quot;&gt;&gt;
+
+!!! WARNING
+&lt;&lt;alert-warning &quot;Вона популяризувалась в 60-их роках минулого сторіччя завдяки виданню зразків шрифтів `Letraset`, які містили уривки з Lorem Ipsum, і вдруге - нещодавно завдяки програмам комп'ютерного верстування на кшталт&quot;&gt;&gt;
+
+!!! INFO
+&lt;&lt;alert-info &quot;На відміну від поширеної думки Lorem Ipsum не є випадковим набором літер. Він походить з уривку класичної латинської літератури 45 року до н.е., тобто має більш як 2000-річну історію.&quot;&gt;&gt;
+
+!!! SUCCESS
+&lt;&lt;alert-success &quot;Річард Макклінток, професор латини з коледжу Хемпдін-Сидні, що у Вірджінії, вивчав одне з найменш зрозумілих латинських слів - consectetur - з уривку Lorem Ipsum, і у пошуку цього слова в класичній літературі знайшов безсумнівне джерело.&quot;&gt;&gt;</pre>
 </div>
 <div created="20190702063749506" modified="20190715114946265" tags="$:/tags/Macro" title="$:/boa/macro/wiki-list" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>\define wiki-list()
@@ -10399,6 +10484,21 @@ Also it includes the exact model specification, drawings, technical description 
 <div _canonical_uri="./images/EcoCityMap.png" tags="" title="EcoCityMap.png" type="image/png" revision="2" bag="default">
 <pre></pre>
 </div>
+<div _canonical_uri="./images/img-airly-map.png" title="img-airly-map.png" type="image/png" revision="2" bag="default">
+<pre></pre>
+</div>
+<div _canonical_uri="./images/img-business-model-AIRQM.svg" created="20191121123147959" modified="20191121123218400" title="img-business-model-AIRQM.svg" type="image/svg+xml" revision="2" bag="default">
+<pre></pre>
+</div>
+<div _canonical_uri="./images/img-detection-scheme.png" title="img-detection-scheme.png" type="image/png" revision="2" bag="default">
+<pre></pre>
+</div>
+<div _canonical_uri="./images/img-pm-lidar-detection.png" title="img-pm-lidar-detection.png" type="image/png" revision="2" bag="default">
+<pre></pre>
+</div>
+<div _canonical_uri="./images/img-video-surveillance.png" title="img-video-surveillance.png" type="image/png" revision="2" bag="default">
+<pre></pre>
+</div>
 <div _canonical_uri="./images/KyivSmartCity.png" tags="" title="KyivSmartCity.png" type="image/png" revision="2" bag="default">
 <pre></pre>
 </div>
@@ -10471,6 +10571,112 @@ Also it includes the exact model specification, drawings, technical description 
 <div _canonical_uri="./images/poltava-sensor.png" created="20190927130434345" modified="20190927130447385" title="poltava-sensor.png" type="image/png" revision="2" bag="default">
 <pre></pre>
 </div>
+<div created="20191121115250786" modified="20191121122933224" tags="Інформація" title="Smart-city solution for air quality management of a metropolis" revision="0" bag="default">
+<pre>&lt;&lt;alert-info &quot;This document is rather a project proposal or a prospective plan of the project development.&quot;&gt;&gt;
+
+!! Project goals and impacts
+
+The main goal of the project is in creating and/or enhancing sustainable capabilities for a community of a metropolis for the direct continuous assessment of current health risks from the air quality factor by creating, maintaining and developing an open information environment for network members and other stakeholders, who continuously deliver, verify, visualize and analyze the data received by all network members and influence on pollution sources' owners via application of modern smart city capabilities and solutions.
+
+The main task of this network is in timely and precise identifying and monitoring individual point (area, volumetric) sources of air quality deterioration to eliminate the causes of such deterioration.
+The principal expected impacts of the project are:
+
+* The greater awareness and the deeper involvement of the public in management of environmental risks.
+* Altering the existing paradigm of &quot;pure&quot; monitoring (i.e. passive surveillance and post-factum response) by more active approach of air quality management (i.e. identifying the sources and active elimination of their causes).
+* The lesser car traffic exhaust, the lesser fuel consumption, the cleaner air in a metropolis.
+
+!! Project idea
+
+The project idea comprises of three interconnected blocks:
+
+# Development, launch and maintain of a cost-effective easily scalable decentralized air quality monitoring network (DMN) in Kyiv, which can be considered as a pilot project for further scalability and replication.
+# Doing R&amp;D&amp;I, which results technical solutions for remote identifying individual vehicles – transgressors of air quality norms.
+# Development of a business model for establishing a resilience metropolitan air quality management infrastructure ensuring irreversibility of institutional changes and further replication.
+
+!! Project team
+
+Project Team consists of two principal partners:
+
+* National Aviation University, Kyiv, Ukraine
+* NGO National Ecological Centre of Ukraine
+
+However, the list is open and any other partner could join the team. These can be environmentally conscious and active individuals, SMEs and NGOs of ecological orientation, corporate partners and customers, municipal, regional and state authorities (e.g. Departments of Ecology), Universities (Departments of Ecology, IT, Engineering and other), related local, regional, global “citizen science” public networks, other.
+
+!! Decentralized air quality monitoring networks
+
+The main purpose of the DMN is to directly monitor air quality and track its long-term trends. At the same time, the DMN is unable to answer the main question of the location and power of air pollution sources.
+
+A typical lightweight sensor is designed to measure pressure, temperature, humidity, as well as the concentration of aerosols (usually PM2.5), and several gases such as CO, NO2 and others. The sensor is portable and can be easily fastened to building constructions in various ways. Usually, for data exchange the sensor has a standard wired and / or wireless connection (WiFi, GSM, LoRaWAN, Bluetooth, and other. The data acquired with time labels and coordinates of measurements are transmitted to a cloud / server database. Finally, DMN provides tools for data presentation via web browser and / or mobile application.
+
+Due to global accessibility of technological achievements and the significant reduction in the price of major components in the last decade DMNs have become widespread in the world as well as in Ukraine. 
+
+One can see below a short list of companies, NGOs and other type of entities demonstrating their capabilities in DMN approach. The list is splitted by two parts: companies from abroad (of Ukraine) – “World” and national entities – “Ukraine”.
+
+&lt;&lt;alert-info &quot;[[See the list of companies here|Потенційні партнери у стилі citizen-science]]&quot;&gt;&gt;
+
+Within the framework of the [[Public Budget Program of Kyiv city|https://gb.kyivcity.gov.ua/projects/11/1300]] the Project team together with Polish company Airly have been currently carrying out pilot testing of the Ukrainian segment of DMN. So far 4 sensors were installed in Kyiv:
+
+* https://airly.eu/map/en/#50.44020,30.43013,i9969
+* https://airly.eu/map/en/#50.44107,30.43953,i10001
+* https://airly.eu/map/en/#50.42175,30.46593,i10050
+* https://airly.eu/map/en/#50.42175,30.46593,i10050
+
+On the map of Kyiv these sensors look like this:
+
+[img[img-airly-map.png]]
+
+!! Remote identifying individual vehicles – transgressors
+
+The task of remote identifying individual vehicles – transgressors still is a technological challenge in the world.
+
+An idea of intercepting a car-transgressor can be sketched out into two parts:
+
+# Car license plate number recognition system, simultaneously detecting car spatial position (coordinates) and time of the event.
+# Aerosol (or gas) remote detection system based on LIDAR principles (or might be other).
+
+The data from both systems collected via wireless (or wired) telecommunication channels by single network application, which actually detects the fact of transgression and the car license plate number.
+
+&lt;&lt;image-basic img-detection-scheme.png width:80% align:center caption:&quot;Scheme of individual vehicle exhaust detection&quot;&gt;&gt;
+
+!!! Car license plate number recognition system
+
+&lt;&lt;image-basic img-video-surveillance.png width:35% align:right&gt;&gt;
+
+According to [[official sources|https://www.kyivsmartcity.com/projects/safe-city/]] 5823 cameras operate in Kyiv within the city-wide CCTV system.
+
+The Safe City project was created to enhance the safety of Kyiv residents, control utility services and manage traffic in the city. The system for online recognizing faces and car license plate numbers is already in operation.
+
+Three situational centers were opened and interaction with operational units of the Ministry of Internal Affairs and the Security Service was established. In the future, the system will connect fire, rescue, medical, road and other utilities and public services.
+
+Currently within the framework of the abovementioned Public Budget Program of Kyiv city1 the Project team together with Municipal Enterprise “Informatyka” is working out technical requirements for data exchange between external applications and the data center storage facility. This experience might be helpful for developing services of getting individual information of vehicles transgressing the air regulations. 
+
+!!! Aerosol (or gas) remote detection system
+
+&lt;&lt;image-basic img-pm-lidar-detection.png width:50% align:right caption:&quot;Experimental results of feasibility study of remote measurements of vehicle emissions [3]&quot;&gt;&gt;
+
+Remote air monitoring techniques have evolved significantly in recent decades. This fully applies to short-range methods for determining urban transport traffic emissions. Many of these methods use LIDAR technology to measure the amplitude of the backscatter and to contrast this signal versa the concentration of harmful emissions from cars, such as aerosols and some gases, the products of internal combustion engines.
+
+Technological development has been gradually making these technologies more stable, miniature and affordable.
+
+The following is a small part of references to demonstrate the current emissions measurement capabilities:
+
+# Monitoring Automotive Particulate Matter Emissions with LiDAR: A Review / Claudio Mazzoleni, Hampden D. Kuhns and Hans Moosmüller / Remote Sens. 2010, 2, 1077-1119; doi:10.3390/rs2041077
+# Atmospheric Light Detection and Ranging (LiDAR) Coupled With Point Measurement Air Quality Samplers to Measure Fine Particulate Matter (PM) Emissions From Agricultural Operations: The Los Banos CA Fall 2007 Tillage Campaign / David J. Williams, Sona Chilingaryan, and Dr. Jerry Hatfield / EPA/600/R-12/734, December 2012, www.epa.gov/research
+# Real-time vehicle emissions monitoring using a compact LiDAR system and conventional instruments: first results of an experimental campaign in a suburban area in southern Italy / Stefano Parracino, et al. / Optical Engineering 55(10), 103107 (October 2016)
+# Evaluation of EDAR vehicle emissions remote sensing technology / Ropkins, K , DeFries, TH, Pope, F et al. (10 more authors) / Science of The Total Environment, 609. pp. 1464-1474. ISSN 0048-9697
+# Smartphone-Based Vehicle Emission Estimation / M. Cerón, M. Fernández-Carmona, C. Urdiales, and F. Sandoval / Springer International Publishing AG 2018 Á. Rocha and T. Guarda (eds.), Proceedings of the International Conference on Information Technology &amp; Systems (ICITS 2018), Advances in Intelligent Systems and Computing 721, https://doi.org/10.1007/978-3-319-73450-7_28
+# Lidar Measurements of Dust Aerosols during Three Field Campaigns in 2010, 2011 and 2012 over Northwestern China / Tian Zhou, Hailing Xie, Jianrong Bi, Zhongwei Huang, Jianping Huang, Jinsen Shi, Beidou Zhang and Wu Zhang / Atmosphere 2018, 9, 173; doi:10.3390/atmos9050173, www.mdpi.com/journal/atmosphere
+# Comparison of Portable Emissions Measurement Systems (PEMS) with Laboratory Grade Equipment / Roberto Aliandro Varella 1, Barouch Giechaskiel 2,*, Luís Sousa 1 and Gonçalo Duarte / Appl. Sci. 2018, 8, 1633; doi:10.3390/app8091633, www.mdpi.com/journal/applsci
+# EPA Handbook: Optical and Remote Sensing for Measurement and Monitoring of Emissions Flux of Gases and Particulate Matter / United States Environmental Protection Agency / Publication No. EPA 454/B-18-008 August 2018
+# LED Mini Lidar for Atmospheric Application / Tatsuo Shiina / Sensors 2019, 19, 569; doi:10.3390/s19030569, www.mdpi.com/journal/sensors
+# Measuring On-Road Vehicle Emissions with Multiple Instruments Including Remote Sensing / Robin Smit and Phil Kingston / Atmosphere 2019, 10, 516; doi:10.3390/atmos10090516, www.mdpi.com/journal/atmosphere
+
+!! Model for sustainable development
+
+Ensuring the sustainable development of the metropolitan air quality management infrastructure can only be achieved by taking into account the interests of all stakeholders so that this system becomes economically self-sufficient. To do this, an appropriate business model has to be developed as a tool establishing the sustainability and the irreversible institutional modernization. The outline of this business model is presented below:
+
+[img[img-business-model-AIRQM.svg]]</pre>
+</div>
 <div _canonical_uri="./images/SMS.png" tags="" title="SMS.png" type="image/png" revision="2" bag="default">
 <pre></pre>
 </div>
@@ -10522,8 +10728,8 @@ Also it includes the exact model specification, drawings, technical description 
 <pre>&lt;&lt;tabs &quot;[tag[Каталог]]&quot; &quot;Інформація&quot;&gt;&gt;
 </pre>
 </div>
-<div created="20190801095715829" modified="20190918144828116" tags="Інформація" title="Мережі моніторингу якості повітря в Києві" revision="0" bag="default">
-<pre>Сьогодні в Києві існує низка рішень для систем моніторингу якості повітря. Рівень впровадження та функціонування таких систем стартує від волонтерської ініціативи громадян до рівня державної системи моніторингу повітря, яку здійснює Центральна геофізична обсерваторія ім. Бориса Срезневського. Також у місті планується розробка декількох сучасних систем з концепцією open data – муніципальної та громадської. Розглянувши доступні веб ресурси, нижче представлено опис кожної з доступних систем.
+<div created="20190801095715829" modified="20191121123440156" tags="Інформація" title="Мережі моніторингу якості повітря в Києві" revision="0" bag="default">
+<pre>Сьогодні в Києві існує низка рішень для систем моніторингу якості повітря. Рівень впровадження та функціонування таких систем стартує від волонтерської ініціативи громадян до рівня державної системи моніторингу повітря, яку здійснює Центральна геофізична обсерваторія ім. Бориса Срезневського. Також у місті планується розробка декількох сучасних систем з концепцією open data – муніципальної та громадської. Розглянувши доступні веб ресурси, нижче представлено опис кожної з доступних систем. 
 
 !! Державна система моніторингу Центральної геофізичної обсерваторії ім. Бориса Срезневського
 
