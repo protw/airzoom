@@ -1,8 +1,9 @@
 created: 20190927144012844
-modified: 20190929081550758
+list: [[Мережі моніторингу якості повітря в Києві]] [[Індекс загальної якості повітря CAQI]] [[Потенційні партнери у стилі citizen-science]] [[Smart-city solution for air quality management of a metropolis]] [[Новий порядок моніторингу стану повітря]]
+modified: 20200118152127742
 tags: Каталог
 title: Інформація
 
 !! ''Корисна і довідкова інформація''
 
-<<list-links filter:"[!has[draft.of]tag[Інформація]sort[title]]">>
+<<list-tagged-draggable tag:"Інформація">>

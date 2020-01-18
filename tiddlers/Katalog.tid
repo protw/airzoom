@@ -2,8 +2,8 @@ caption: Каталоги
 created: 20190927144258695
 list: Проект Інформація [[Про проект]] Документи Новини
 list-after: More
-modified: 20200117135440870
+modified: 20200118152212478
 tags: $:/tags/SideBar
 title: Каталог
 
-<<tabs "[tag[Каталог]]" "Проект">>
+<<tabs "[tag[Каталог]] -[has[draft.of]]" "Проект">>

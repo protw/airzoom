@@ -1,8 +1,12 @@
 created: 20190927133010061
-modified: 20190929081645593
+modified: 20200118152829879
 tags: Каталог
 title: Новини
 
-!! ''Всі новини на сайті''
+<div style="float:right;width:250px;padding-left:15px;padding-right:15px;padding-bottom:15px;">
+//Щоб створити нове посилання на зовнішню публікацію про проект перейдіть [[сюди|Створити нове посилання на зовнішню публікацію про проект]]//.
+</div>
+
+!! ''Всі новини про проєкт''
 
 <<list-links filter:"[!has[draft.of]tag[Новини]!sort[created]]">>
