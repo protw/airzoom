@@ -1,10 +1,10 @@
 created: 20190929081407130
-modified: 20190929200438824
+modified: 20200128110330304
 tags: org Інформація
 title: Потенційні партнери у стилі citizen-science
 type: text/vnd.tiddlywiki
 
-!! ''Ukraine''
+!! ''Ukraine'' 
 
 <$list filter="[is[image]has[name]!has[draft.of]!is[system]country[Ukraine]sort[title]]">
   <a href={{!!web}} target="_blank">
