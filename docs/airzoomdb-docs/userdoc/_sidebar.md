@@ -1,7 +1,0 @@
-- [&uarr;&uarr;](../README.md) [ДОКУМЕНТАЦІЯ КОРИСТУВАЧА AirzoomDB](README.md)
-  - [Початок роботи](start.md)
-  - [Перегляд даних](view_data.md)
-  - [Робота з датчиками](sensors.md)
-  - [Організації](org.md)
-  - [Користувачі](user.md)
-  - [Сервісний журнал](service_log.md)

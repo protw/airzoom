@@ -1,1 +1,0 @@
-- [&uarr;&uarr;](../README.md) [РОЗГОРТАННЯ AirzoomDB](README.md)

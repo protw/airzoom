@@ -1,4 +1,0 @@
-- [&uarr;&uarr;](../README.md) [ДОДАТКОВІ СЕРВІСИ](README.md)
-  - [Фетчер](fetcher.md)
-  - [Файлова БД](mongo-fs.md)
-  - [Авторизація](auth.md)
