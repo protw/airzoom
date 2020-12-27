@@ -1,0 +1,1 @@
+docsify serve airzoomdb-docs | start http://localhost:3000
