@@ -1,13 +1,14 @@
 created: 20190927144258695
 list: Проект Інформація [[Про проект]] Документи Новини
 list-before: $:/core/ui/SideBar/Open
-modified: 20201227193136627
+modified: 20201228074503726
 tags: $:/tags/SideBar
 title: Про проєкт
 
-<$link overrideClass="btn btn-success" to="Опис проекту Громадського бюджету">@@fill:white;<<doc-svg $:/boa/img/fa5/bolt>>@@ ''Ідея проєкту''</$link>
+<a href="#Опис%20проекту%20Громадського%20бюджету" class="myButton" target="_self"><<doc-svg $:/boa/img/fa5/bolt White>>&nbsp;&nbsp;''Початок''</a>
 
-<$link overrideClass="btn btn-primary" to="Проєкт AirZOOM">@@fill:white;<<doc-svg $:/boa/img/fa5/list-alt White>>&nbsp;@@ ''Статті''</$link>
+<a href="#Проєкт%20AirZOOM" class="myButton" target="_self"><<doc-svg $:/boa/img/fa5/list-alt White>>&nbsp;&nbsp;''Статті''</a>
+
 
 <a href="https://protw.github.io/azreal" class="myButton" target="_blank"><<doc-svg $:/boa/img/fa5/book White>>&nbsp;&nbsp;''Документація''</a>
 
@@ -39,3 +40,4 @@ title: Про проєкт
 	top:1px;
 }
 </style>
+<!-- #EB5F5F -->
