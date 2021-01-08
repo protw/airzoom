@@ -1,17 +1,16 @@
 created: 20190927144258695
 list: Проект Інформація [[Про проект]] Документи Новини
 list-before: $:/core/ui/SideBar/Open
-modified: 20201228074503726
+modified: 20210108122253884
 tags: $:/tags/SideBar
 title: Про проєкт
 
 <a href="#Опис%20проекту%20Громадського%20бюджету" class="myButton" target="_self"><<doc-svg $:/boa/img/fa5/bolt White>>&nbsp;&nbsp;''Початок''</a>
-
 <a href="#Проєкт%20AirZOOM" class="myButton" target="_self"><<doc-svg $:/boa/img/fa5/list-alt White>>&nbsp;&nbsp;''Статті''</a>
+<a href="https://airly.org/map/en/#50.441068,30.439526,i10001" class="myButton" target="_blank"><<doc-svg $:/boa/img/fa5/map-marker-alt White>>&nbsp;&nbsp;''Мапа''</a>
 
 
 <a href="https://protw.github.io/azreal" class="myButton" target="_blank"><<doc-svg $:/boa/img/fa5/book White>>&nbsp;&nbsp;''Документація''</a>
-
 <a href="https://protw.github.io/azreal/#/media/team" class="myButton" target="_blank"><<doc-svg $:/boa/img/fa5/users White>>&nbsp;&nbsp;''Команда''</a>
 
 <style>

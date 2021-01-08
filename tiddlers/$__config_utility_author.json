@@ -1,0 +1,8 @@
+{
+    "Про проєкт": "$:/tags/SideBar",
+    "$:/core/ui/SideBar/Open": "$:/tags/SideBar",
+    "$:/core/ui/SideBar/Recent": "$:/tags/SideBar",
+    "$:/core/ui/SideBar/Tools": "$:/tags/SideBar",
+    "$:/core/ui/SideBar/More": "$:/tags/SideBar",
+    "$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/more-tiddler-actions": "show"
+}
