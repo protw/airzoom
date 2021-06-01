@@ -1,9 +1,9 @@
 created: 20191121115250786
-modified: 20191121122933224
+modified: 20210601110708717
 tags: Інформація
 title: Smart-city solution for air quality management of a metropolis
 
-<<alert-info "This document is rather a project proposal or a prospective plan of the project development.">>
+<<alert info "This document is rather a project proposal or a prospective plan of the project development.">>
 
 !! Project goals and impacts
 
@@ -43,7 +43,7 @@ Due to global accessibility of technological achievements and the significant re
 
 One can see below a short list of companies, NGOs and other type of entities demonstrating their capabilities in DMN approach. The list is splitted by two parts: companies from abroad (of Ukraine) – “World” and national entities – “Ukraine”.
 
-<<alert-info "[[See the list of companies here|Потенційні партнери у стилі citizen-science]]">>
+<<alert info "[[See the list of companies here|Потенційні партнери у стилі citizen-science]]">>
 
 Within the framework of the [[Public Budget Program of Kyiv city|https://gb.kyivcity.gov.ua/projects/11/1300]] the Project team together with Polish company Airly have been currently carrying out pilot testing of the Ukrainian segment of DMN. So far 4 sensors were installed in Kyiv:
 
