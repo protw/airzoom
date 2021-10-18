@@ -1,0 +1,237 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 432">
+	<defs/>
+	<path fill="#fff" d="M0 0h576v432H0z"/>
+	<path fill="#fff" d="M0 432h576V0H0z" shape-rendering="crispEdges"/>
+	<clipPath id="a">
+		<path d="M0 432h576V0H0z"/>
+	</clipPath>
+	<g clip-path="url(#a)">
+		<path fill="#fff" d="M74.88 180.582h190.445V48.142H74.88z" shape-rendering="crispEdges"/>
+		<path fill="none" stroke="#262626" stroke-width=".5" d="M74.88 180.582v-1.911M74.88 48.142v1.91M122.491 180.582v-1.911M122.491 48.142v1.91M170.103 180.582v-1.911M170.103 48.142v1.91M217.714 180.582v-1.911M217.714 48.142v1.91M265.325 180.582v-1.911M265.325 48.142v1.91"/>
+		<text font-family="Arial" font-size="10" transform="translate(71.88 196.107)">
+			<tspan x="0" y="0" fill="#262626">0</tspan>
+		</text>
+		<text font-family="Arial" font-size="10" transform="translate(119.491 196.107)">
+			<tspan x="0" y="0" fill="#262626">2</tspan>
+		</text>
+		<text font-family="Arial" font-size="10" transform="translate(167.103 196.107)">
+			<tspan x="0" y="0" fill="#262626">4</tspan>
+		</text>
+		<text font-family="Arial" font-size="10" transform="translate(214.714 196.107)">
+			<tspan x="0" y="0" fill="#262626">6</tspan>
+		</text>
+		<text font-family="Arial" font-size="10" transform="translate(262.325 196.107)">
+			<tspan x="0" y="0" fill="#262626">8</tspan>
+		</text>
+		<path fill="none" stroke="#262626" stroke-width=".5" d="M74.88 180.582h1.909M265.325 180.582h-1.909M74.88 161.662h1.909M265.325 161.662h-1.909M74.88 142.742h1.909M265.325 142.742h-1.909M74.88 123.822h1.909M265.325 123.822h-1.909M74.88 104.902h1.909M265.325 104.902h-1.909M74.88 85.982h1.909M265.325 85.982h-1.909M74.88 67.062h1.909M265.325 67.062h-1.909M74.88 48.142h1.909M265.325 48.142h-1.909"/>
+		<text font-family="Arial" font-size="10" transform="translate(63.868 184.582)">
+			<tspan x="0" y="0" fill="#262626">0</tspan>
+		</text>
+		<text font-family="Arial" font-size="10" transform="translate(57.868 165.662)">
+			<tspan x="0 6" y="0" fill="#262626">20</tspan>
+		</text>
+		<text font-family="Arial" font-size="10" transform="translate(57.868 146.742)">
+			<tspan x="0 6" y="0" fill="#262626">40</tspan>
+		</text>
+		<text font-family="Arial" font-size="10" transform="translate(57.868 127.822)">
+			<tspan x="0 6" y="0" fill="#262626">60</tspan>
+		</text>
+		<text font-family="Arial" font-size="10" transform="translate(57.868 108.902)">
+			<tspan x="0 6" y="0" fill="#262626">80</tspan>
+		</text>
+		<text font-family="Arial" font-size="10" transform="translate(51.868 89.982)">
+			<tspan x="0 6 12" y="0" fill="#262626">100</tspan>
+		</text>
+		<text font-family="Arial" font-size="10" transform="translate(51.868 71.062)">
+			<tspan x="0 6 12" y="0" fill="#262626">120</tspan>
+		</text>
+		<text font-family="Arial" font-size="10" transform="translate(51.868 52.142)">
+			<tspan x="0 6 12" y="0" fill="#262626">140</tspan>
+		</text>
+		<path fill="none" stroke="#262626" stroke-dasharray="16,0" stroke-linecap="square" stroke-width=".5" d="M74.88 180.582h190.445M74.88 48.142h190.445M74.88 180.582V48.142M265.325 180.582V48.142"/>
+		<text font-family="Arial" font-size="11" font-weight="bold" transform="translate(77.603 38.142)">
+			<tspan x="0 8 14 18 24 28 34 37 43 49 55 58 62 65 72 78 85 88 94 101 108 111 114 120 127 134 141 147 154 159 166 172 179 182" y="-3">Data-2.csv - медіанні концентрації</tspan>
+		</text>
+		<text font-family="Arial" font-size="11" transform="rotate(-90 93.365 46.497)">
+			<tspan x="0 7 16 19" y="-3" fill="#262626">PM, </tspan>
+			<tspan x="22" y="-3" fill="#262626">μ</tspan>
+			<tspan x="28 34 37" y="-3" fill="#262626">g/m</tspan>
+			<tspan x="46" y="-9" fill="#262626" font-size="9">3</tspan>
+		</text>
+		<text font-family="Arial" font-size="11" transform="translate(139.603 212.107)">
+			<tspan x="0 9 15 21 27 30 35 41 49 55" y="-2" fill="#262626">День тижня</tspan>
+		</text>
+		<path fill="none" stroke="#0071bc" stroke-linejoin="round" stroke-width=".5" d="M98.686 162.728V80.965M97.257 80.965h2.857M97.257 162.728h2.857M122.491 167.532V84.779M121.063 84.78h2.857M121.063 167.532h2.857M146.297 161.594V65.819M144.869 65.82h2.856M144.869 161.594h2.856M170.103 161.816V71.144M168.674 71.144h2.857M168.674 161.816h2.857M193.908 166.602V72.284M192.48 72.284h2.857M192.48 166.602h2.857M217.714 167.762V71.09M216.285 71.09h2.857M216.285 167.762h2.857M241.519 164.721v-98.27M240.091 66.452h2.857M240.091 164.721h2.857M98.686 137.674l23.805 2.746 23.806-12.735 23.806 5.694 23.805-1.905 23.806-1.382 23.805-2.022"/>
+	</g>
+	<g clip-path="url(#a)">
+		<path fill="#fff" d="M330.835 180.582H521.28V48.142H330.835z" shape-rendering="crispEdges"/>
+		<path fill="none" stroke="#262626" stroke-width=".5" d="M330.835 180.582v-1.911M330.835 48.142v1.91M378.446 180.582v-1.911M378.446 48.142v1.91M426.057 180.582v-1.911M426.057 48.142v1.91M473.669 180.582v-1.911M473.669 48.142v1.91M521.28 180.582v-1.911M521.28 48.142v1.91"/>
+		<text font-family="Arial" font-size="10" transform="translate(327.835 196.107)">
+			<tspan x="0" y="0" fill="#262626">0</tspan>
+		</text>
+		<text font-family="Arial" font-size="10" transform="translate(375.446 196.107)">
+			<tspan x="0" y="0" fill="#262626">2</tspan>
+		</text>
+		<text font-family="Arial" font-size="10" transform="translate(423.057 196.107)">
+			<tspan x="0" y="0" fill="#262626">4</tspan>
+		</text>
+		<text font-family="Arial" font-size="10" transform="translate(470.669 196.107)">
+			<tspan x="0" y="0" fill="#262626">6</tspan>
+		</text>
+		<text font-family="Arial" font-size="10" transform="translate(518.28 196.107)">
+			<tspan x="0" y="0" fill="#262626">8</tspan>
+		</text>
+		<path fill="none" stroke="#262626" stroke-width=".5" d="M330.835 180.582h1.909M521.28 180.582h-1.909M330.835 161.662h1.909M521.28 161.662h-1.909M330.835 142.742h1.909M521.28 142.742h-1.909M330.835 123.822h1.909M521.28 123.822h-1.909M330.835 104.902h1.909M521.28 104.902h-1.909M330.835 85.982h1.909M521.28 85.982h-1.909M330.835 67.062h1.909M521.28 67.062h-1.909M330.835 48.142h1.909M521.28 48.142h-1.909"/>
+		<text font-family="Arial" font-size="10" transform="translate(319.823 184.582)">
+			<tspan x="0" y="0" fill="#262626">0</tspan>
+		</text>
+		<text font-family="Arial" font-size="10" transform="translate(313.823 165.662)">
+			<tspan x="0 6" y="0" fill="#262626">20</tspan>
+		</text>
+		<text font-family="Arial" font-size="10" transform="translate(313.823 146.742)">
+			<tspan x="0 6" y="0" fill="#262626">40</tspan>
+		</text>
+		<text font-family="Arial" font-size="10" transform="translate(313.823 127.822)">
+			<tspan x="0 6" y="0" fill="#262626">60</tspan>
+		</text>
+		<text font-family="Arial" font-size="10" transform="translate(313.823 108.902)">
+			<tspan x="0 6" y="0" fill="#262626">80</tspan>
+		</text>
+		<text font-family="Arial" font-size="10" transform="translate(307.823 89.982)">
+			<tspan x="0 6 12" y="0" fill="#262626">100</tspan>
+		</text>
+		<text font-family="Arial" font-size="10" transform="translate(307.823 71.062)">
+			<tspan x="0 6 12" y="0" fill="#262626">120</tspan>
+		</text>
+		<text font-family="Arial" font-size="10" transform="translate(307.823 52.142)">
+			<tspan x="0 6 12" y="0" fill="#262626">140</tspan>
+		</text>
+		<path fill="none" stroke="#262626" stroke-dasharray="16,0" stroke-linecap="square" stroke-width=".5" d="M330.835 180.582H521.28M330.835 48.142H521.28M330.835 180.582V48.142M521.28 180.582V48.142"/>
+		<text font-family="Arial" font-size="11" font-weight="bold" transform="translate(303.557 38.142)">
+			<tspan x="0 8 14 18 24 28 36 43 46 53 59 65 72 78 84 88 94 97 103 109 115 118 122 125 132 138 145 148 154 161 168 171 174 180 187 194 201 207 214 219 226 232 239 242" y="-3">Data-Bulhakova-2.csv - медіанні концентрації</tspan>
+		</text>
+		<text font-family="Arial" font-size="11" transform="rotate(-90 221.343 -81.48)">
+			<tspan x="0 7 16 19" y="-3" fill="#262626">PM, </tspan>
+			<tspan x="22" y="-3" fill="#262626">μ</tspan>
+			<tspan x="28 34 37" y="-3" fill="#262626">g/m</tspan>
+			<tspan x="46" y="-9" fill="#262626" font-size="9">3</tspan>
+		</text>
+		<text font-family="Arial" font-size="11" transform="translate(395.557 212.107)">
+			<tspan x="0 9 15 21 27 30 35 41 49 55" y="-2" fill="#262626">День тижня</tspan>
+		</text>
+		<path fill="none" stroke="#0071bc" stroke-linejoin="round" stroke-width=".5" d="M354.641 161.212v-82.5M353.212 78.712h2.857M353.212 161.212h2.857M378.446 165.606V76.821M377.018 76.82h2.856M377.018 165.606h2.856M402.252 162.357V62.681M400.823 62.681h2.857M400.823 162.357h2.857M426.057 158.087V61.711M424.629 61.71h2.857M424.629 158.087h2.857M449.863 164.769v-97.54M448.435 67.228h2.856M448.435 164.769h2.856M473.669 165.918v-99.06M472.24 66.858h2.857M472.24 165.918h2.857M497.474 164.192V62.967M496.046 62.967h2.857M496.046 164.192h2.857M354.641 136.704l23.805-.921 23.806-9.205 23.805 1.211 23.806 1.664 23.806-.966 23.805-2.442"/>
+	</g>
+	<g clip-path="url(#a)">
+		<path fill="#fff" d="M74.88 384.48h190.445V252.04H74.88z" shape-rendering="crispEdges"/>
+		<path fill="none" stroke="#262626" stroke-width=".5" d="M74.88 384.48v-1.911M74.88 252.04v1.911M122.491 384.48v-1.911M122.491 252.04v1.911M170.103 384.48v-1.911M170.103 252.04v1.911M217.714 384.48v-1.911M217.714 252.04v1.911M265.325 384.48v-1.911M265.325 252.04v1.911"/>
+		<text font-family="Arial" font-size="10" transform="translate(71.88 400.005)">
+			<tspan x="0" y="0" fill="#262626">0</tspan>
+		</text>
+		<text font-family="Arial" font-size="10" transform="translate(119.491 400.005)">
+			<tspan x="0" y="0" fill="#262626">2</tspan>
+		</text>
+		<text font-family="Arial" font-size="10" transform="translate(167.103 400.005)">
+			<tspan x="0" y="0" fill="#262626">4</tspan>
+		</text>
+		<text font-family="Arial" font-size="10" transform="translate(214.714 400.005)">
+			<tspan x="0" y="0" fill="#262626">6</tspan>
+		</text>
+		<text font-family="Arial" font-size="10" transform="translate(262.325 400.005)">
+			<tspan x="0" y="0" fill="#262626">8</tspan>
+		</text>
+		<path fill="none" stroke="#262626" stroke-width=".5" d="M74.88 384.48h1.909M265.325 384.48h-1.909M74.88 365.56h1.909M265.325 365.56h-1.909M74.88 346.64h1.909M265.325 346.64h-1.909M74.88 327.72h1.909M265.325 327.72h-1.909M74.88 308.8h1.909M265.325 308.8h-1.909M74.88 289.88h1.909M265.325 289.88h-1.909M74.88 270.96h1.909M265.325 270.96h-1.909M74.88 252.04h1.909M265.325 252.04h-1.909"/>
+		<text font-family="Arial" font-size="10" transform="translate(63.868 388.48)">
+			<tspan x="0" y="0" fill="#262626">0</tspan>
+		</text>
+		<text font-family="Arial" font-size="10" transform="translate(57.868 369.56)">
+			<tspan x="0 6" y="0" fill="#262626">20</tspan>
+		</text>
+		<text font-family="Arial" font-size="10" transform="translate(57.868 350.64)">
+			<tspan x="0 6" y="0" fill="#262626">40</tspan>
+		</text>
+		<text font-family="Arial" font-size="10" transform="translate(57.868 331.72)">
+			<tspan x="0 6" y="0" fill="#262626">60</tspan>
+		</text>
+		<text font-family="Arial" font-size="10" transform="translate(57.868 312.8)">
+			<tspan x="0 6" y="0" fill="#262626">80</tspan>
+		</text>
+		<text font-family="Arial" font-size="10" transform="translate(51.868 293.88)">
+			<tspan x="0 6 12" y="0" fill="#262626">100</tspan>
+		</text>
+		<text font-family="Arial" font-size="10" transform="translate(51.868 274.96)">
+			<tspan x="0 6 12" y="0" fill="#262626">120</tspan>
+		</text>
+		<text font-family="Arial" font-size="10" transform="translate(51.868 256.04)">
+			<tspan x="0 6 12" y="0" fill="#262626">140</tspan>
+		</text>
+		<path fill="none" stroke="#262626" stroke-dasharray="16,0" stroke-linecap="square" stroke-width=".5" d="M74.88 384.48h190.445M74.88 252.04h190.445M74.88 384.48V252.04M265.325 384.48V252.04"/>
+		<text font-family="Arial" font-size="11" font-weight="bold" transform="translate(41.603 242.04)">
+			<tspan x="0 8 14 18 24 28 35 42 49 55 62 69 75 81 87 93 96 100 106 109 115 121 127 130 134 137 144 150 157 160 166 173 180 183 186 192 199 206 213 219 226 231 238 244 251 254" y="-3">Data-Lobanovskyi-2.csv - медіанні концентрації</tspan>
+		</text>
+		<text font-family="Arial" font-size="11" transform="rotate(-90 195.314 148.446)">
+			<tspan x="0 7 16 19" y="-3" fill="#262626">PM, </tspan>
+			<tspan x="22" y="-3" fill="#262626">μ</tspan>
+			<tspan x="28 34 37" y="-3" fill="#262626">g/m</tspan>
+			<tspan x="46" y="-9" fill="#262626" font-size="9">3</tspan>
+		</text>
+		<text font-family="Arial" font-size="11" transform="translate(139.603 416.005)">
+			<tspan x="0 9 15 21 27 30 35 41 49 55" y="-2" fill="#262626">День тижня</tspan>
+		</text>
+		<path fill="none" stroke="#0071bc" stroke-linejoin="round" stroke-width=".5" d="M98.686 366.298V280.38M97.257 280.38h2.857M97.257 366.298h2.857M122.491 371.171v-87.384M121.063 283.787h2.857M121.063 371.171h2.857M146.297 360.082v-98.718M144.869 261.364h2.856M144.869 360.082h2.856M170.103 361.637V267.36M168.674 267.36h2.857M168.674 361.637h2.857M193.908 368.688v-97.963M192.48 270.725h2.857M192.48 368.688h2.857M217.714 370.461V269.512M216.285 269.512h2.857M216.285 370.461h2.857M241.519 365.292V264.355M240.091 264.355h2.857M240.091 365.292h2.857M98.686 338.841l23.805 3.394 23.806-14.676 23.806 5.14 23.805-.523 23.806-.625 23.805-2.11"/>
+	</g>
+	<g clip-path="url(#a)">
+		<path fill="#fff" d="M330.835 384.48H521.28V252.04H330.835z" shape-rendering="crispEdges"/>
+		<path fill="none" stroke="#262626" stroke-width=".5" d="M330.835 384.48v-1.911M330.835 252.04v1.911M378.446 384.48v-1.911M378.446 252.04v1.911M426.057 384.48v-1.911M426.057 252.04v1.911M473.669 384.48v-1.911M473.669 252.04v1.911M521.28 384.48v-1.911M521.28 252.04v1.911"/>
+		<text font-family="Arial" font-size="10" transform="translate(327.835 400.005)">
+			<tspan x="0" y="0" fill="#262626">0</tspan>
+		</text>
+		<text font-family="Arial" font-size="10" transform="translate(375.446 400.005)">
+			<tspan x="0" y="0" fill="#262626">2</tspan>
+		</text>
+		<text font-family="Arial" font-size="10" transform="translate(423.057 400.005)">
+			<tspan x="0" y="0" fill="#262626">4</tspan>
+		</text>
+		<text font-family="Arial" font-size="10" transform="translate(470.669 400.005)">
+			<tspan x="0" y="0" fill="#262626">6</tspan>
+		</text>
+		<text font-family="Arial" font-size="10" transform="translate(518.28 400.005)">
+			<tspan x="0" y="0" fill="#262626">8</tspan>
+		</text>
+		<path fill="none" stroke="#262626" stroke-width=".5" d="M330.835 384.48h1.909M521.28 384.48h-1.909M330.835 362.407h1.909M521.28 362.407h-1.909M330.835 340.333h1.909M521.28 340.333h-1.909M330.835 318.26h1.909M521.28 318.26h-1.909M330.835 296.187h1.909M521.28 296.187h-1.909M330.835 274.113h1.909M521.28 274.113h-1.909M330.835 252.04h1.909M521.28 252.04h-1.909"/>
+		<text font-family="Arial" font-size="10" transform="translate(319.823 388.48)">
+			<tspan x="0" y="0" fill="#262626">0</tspan>
+		</text>
+		<text font-family="Arial" font-size="10" transform="translate(319.823 366.407)">
+			<tspan x="0" y="0" fill="#262626">2</tspan>
+		</text>
+		<text font-family="Arial" font-size="10" transform="translate(319.823 344.333)">
+			<tspan x="0" y="0" fill="#262626">4</tspan>
+		</text>
+		<text font-family="Arial" font-size="10" transform="translate(319.823 322.26)">
+			<tspan x="0" y="0" fill="#262626">6</tspan>
+		</text>
+		<text font-family="Arial" font-size="10" transform="translate(319.823 300.187)">
+			<tspan x="0" y="0" fill="#262626">8</tspan>
+		</text>
+		<text font-family="Arial" font-size="10" transform="translate(313.823 278.113)">
+			<tspan x="0 6" y="0" fill="#262626">10</tspan>
+		</text>
+		<text font-family="Arial" font-size="10" transform="translate(313.823 256.04)">
+			<tspan x="0 6" y="0" fill="#262626">12</tspan>
+		</text>
+		<path fill="none" stroke="#262626" stroke-dasharray="16,0" stroke-linecap="square" stroke-width=".5" d="M330.835 384.48H521.28M330.835 252.04H521.28M330.835 384.48V252.04M521.28 384.48V252.04"/>
+		<text font-family="Arial" font-size="11" font-weight="bold" transform="translate(319.557 242.04)">
+			<tspan x="0 8 14 18 24 28 36 44 52 56 62 65 71 77 83 86 90 93 100 106 113 116 122 129 136 139 142 148 155 162 169 175 182 187 194 200 207 210" y="-3">Data-NAU-2.csv - медіанні концентрації</tspan>
+		</text>
+		<text font-family="Arial" font-size="11" transform="rotate(-90 326.291 17.468)">
+			<tspan x="0 7 16 19" y="-3" fill="#262626">PM, </tspan>
+			<tspan x="22" y="-3" fill="#262626">μ</tspan>
+			<tspan x="28 34 37" y="-3" fill="#262626">g/m</tspan>
+			<tspan x="46" y="-9" fill="#262626" font-size="9">3</tspan>
+		</text>
+		<text font-family="Arial" font-size="11" transform="translate(395.557 416.005)">
+			<tspan x="0 9 15 21 27 30 35 41 49 55" y="-2" fill="#262626">День тижня</tspan>
+		</text>
+		<path fill="none" stroke="#0071bc" stroke-linejoin="round" stroke-width=".5" d="M354.641 369.108v-69.456M353.212 299.652h2.857M353.212 369.108h2.857M378.446 371.277v-58.239M377.018 313.038h2.856M377.018 371.277h2.856M402.252 369.359v-80.622M400.823 288.737h2.857M400.823 369.359h2.857M426.057 362.308V271.06M424.629 271.06h2.857M424.629 362.308h2.857M449.863 371.253V261.816M448.435 261.816h2.856M448.435 371.253h2.856M473.669 368.295v-88.407M472.24 279.888h2.857M472.24 368.295h2.857M497.474 367.788v-79.262M496.046 288.526h2.857M496.046 367.788h2.857M354.641 356.362l23.805 2.532 23.806-10.975 23.805-2.341 23.806 3.865 23.806-2.885 23.805 1.64"/>
+	</g>
+</svg>
