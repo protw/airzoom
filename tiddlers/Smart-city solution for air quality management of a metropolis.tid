@@ -1,0 +1,109 @@
+created: 20191121115250786
+modified: 20210601110708717
+tags: Інформація
+title: Smart-city solution for air quality management of a metropolis
+
+<<alert info "This document is rather a project proposal or a prospective plan of the project development.">>
+
+!! Project goals and impacts
+
+The main goal of the project is in creating and/or enhancing sustainable capabilities for a community of a metropolis for the direct continuous assessment of current health risks from the air quality factor by creating, maintaining and developing an open information environment for network members and other stakeholders, who continuously deliver, verify, visualize and analyze the data received by all network members and influence on pollution sources' owners via application of modern smart city capabilities and solutions.
+
+The main task of this network is in timely and precise identifying and monitoring individual point (area, volumetric) sources of air quality deterioration to eliminate the causes of such deterioration.
+The principal expected impacts of the project are:
+
+* The greater awareness and the deeper involvement of the public in management of environmental risks.
+* Altering the existing paradigm of "pure" monitoring (i.e. passive surveillance and post-factum response) by more active approach of air quality management (i.e. identifying the sources and active elimination of their causes).
+* The lesser car traffic exhaust, the lesser fuel consumption, the cleaner air in a metropolis.
+
+!! Project idea
+
+The project idea comprises of three interconnected blocks:
+
+# Development, launch and maintain of a cost-effective easily scalable decentralized air quality monitoring network (DMN) in Kyiv, which can be considered as a pilot project for further scalability and replication.
+# Doing R&D&I, which results technical solutions for remote identifying individual vehicles – transgressors of air quality norms.
+# Development of a business model for establishing a resilience metropolitan air quality management infrastructure ensuring irreversibility of institutional changes and further replication.
+
+!! Project team
+
+Project Team consists of two principal partners:
+
+* National Aviation University, Kyiv, Ukraine
+* NGO National Ecological Centre of Ukraine
+
+However, the list is open and any other partner could join the team. These can be environmentally conscious and active individuals, SMEs and NGOs of ecological orientation, corporate partners and customers, municipal, regional and state authorities (e.g. Departments of Ecology), Universities (Departments of Ecology, IT, Engineering and other), related local, regional, global “citizen science” public networks, other.
+
+!! Decentralized air quality monitoring networks
+
+The main purpose of the DMN is to directly monitor air quality and track its long-term trends. At the same time, the DMN is unable to answer the main question of the location and power of air pollution sources.
+
+A typical lightweight sensor is designed to measure pressure, temperature, humidity, as well as the concentration of aerosols (usually PM2.5), and several gases such as CO, NO2 and others. The sensor is portable and can be easily fastened to building constructions in various ways. Usually, for data exchange the sensor has a standard wired and / or wireless connection (WiFi, GSM, LoRaWAN, Bluetooth, and other. The data acquired with time labels and coordinates of measurements are transmitted to a cloud / server database. Finally, DMN provides tools for data presentation via web browser and / or mobile application.
+
+Due to global accessibility of technological achievements and the significant reduction in the price of major components in the last decade DMNs have become widespread in the world as well as in Ukraine. 
+
+One can see below a short list of companies, NGOs and other type of entities demonstrating their capabilities in DMN approach. The list is splitted by two parts: companies from abroad (of Ukraine) – “World” and national entities – “Ukraine”.
+
+<<alert info "[[See the list of companies here|Потенційні партнери у стилі citizen-science]]">>
+
+Within the framework of the [[Public Budget Program of Kyiv city|https://gb.kyivcity.gov.ua/projects/11/1300]] the Project team together with Polish company Airly have been currently carrying out pilot testing of the Ukrainian segment of DMN. So far 4 sensors were installed in Kyiv:
+
+* https://airly.eu/map/en/#50.44020,30.43013,i9969
+* https://airly.eu/map/en/#50.44107,30.43953,i10001
+* https://airly.eu/map/en/#50.42175,30.46593,i10050
+* https://airly.eu/map/en/#50.42175,30.46593,i10050
+
+On the map of Kyiv these sensors look like this:
+
+[img[img-airly-map.png]]
+
+!! Remote identifying individual vehicles – transgressors
+
+The task of remote identifying individual vehicles – transgressors still is a technological challenge in the world.
+
+An idea of intercepting a car-transgressor can be sketched out into two parts:
+
+# Car license plate number recognition system, simultaneously detecting car spatial position (coordinates) and time of the event.
+# Aerosol (or gas) remote detection system based on LIDAR principles (or might be other).
+
+The data from both systems collected via wireless (or wired) telecommunication channels by single network application, which actually detects the fact of transgression and the car license plate number.
+
+<<image-basic img-detection-scheme.png width:80% align:center caption:"Scheme of individual vehicle exhaust detection">>
+
+!!! Car license plate number recognition system
+
+<<image-basic img-video-surveillance.png width:35% align:right>>
+
+According to [[official sources|https://www.kyivsmartcity.com/projects/safe-city/]] 5823 cameras operate in Kyiv within the city-wide CCTV system.
+
+The Safe City project was created to enhance the safety of Kyiv residents, control utility services and manage traffic in the city. The system for online recognizing faces and car license plate numbers is already in operation.
+
+Three situational centers were opened and interaction with operational units of the Ministry of Internal Affairs and the Security Service was established. In the future, the system will connect fire, rescue, medical, road and other utilities and public services.
+
+Currently within the framework of the abovementioned Public Budget Program of Kyiv city1 the Project team together with Municipal Enterprise “Informatyka” is working out technical requirements for data exchange between external applications and the data center storage facility. This experience might be helpful for developing services of getting individual information of vehicles transgressing the air regulations. 
+
+!!! Aerosol (or gas) remote detection system
+
+<<image-basic img-pm-lidar-detection.png width:50% align:right caption:"Experimental results of feasibility study of remote measurements of vehicle emissions [3]">>
+
+Remote air monitoring techniques have evolved significantly in recent decades. This fully applies to short-range methods for determining urban transport traffic emissions. Many of these methods use LIDAR technology to measure the amplitude of the backscatter and to contrast this signal versa the concentration of harmful emissions from cars, such as aerosols and some gases, the products of internal combustion engines.
+
+Technological development has been gradually making these technologies more stable, miniature and affordable.
+
+The following is a small part of references to demonstrate the current emissions measurement capabilities:
+
+# Monitoring Automotive Particulate Matter Emissions with LiDAR: A Review / Claudio Mazzoleni, Hampden D. Kuhns and Hans Moosmüller / Remote Sens. 2010, 2, 1077-1119; doi:10.3390/rs2041077
+# Atmospheric Light Detection and Ranging (LiDAR) Coupled With Point Measurement Air Quality Samplers to Measure Fine Particulate Matter (PM) Emissions From Agricultural Operations: The Los Banos CA Fall 2007 Tillage Campaign / David J. Williams, Sona Chilingaryan, and Dr. Jerry Hatfield / EPA/600/R-12/734, December 2012, www.epa.gov/research
+# Real-time vehicle emissions monitoring using a compact LiDAR system and conventional instruments: first results of an experimental campaign in a suburban area in southern Italy / Stefano Parracino, et al. / Optical Engineering 55(10), 103107 (October 2016)
+# Evaluation of EDAR vehicle emissions remote sensing technology / Ropkins, K , DeFries, TH, Pope, F et al. (10 more authors) / Science of The Total Environment, 609. pp. 1464-1474. ISSN 0048-9697
+# Smartphone-Based Vehicle Emission Estimation / M. Cerón, M. Fernández-Carmona, C. Urdiales, and F. Sandoval / Springer International Publishing AG 2018 Á. Rocha and T. Guarda (eds.), Proceedings of the International Conference on Information Technology & Systems (ICITS 2018), Advances in Intelligent Systems and Computing 721, https://doi.org/10.1007/978-3-319-73450-7_28
+# Lidar Measurements of Dust Aerosols during Three Field Campaigns in 2010, 2011 and 2012 over Northwestern China / Tian Zhou, Hailing Xie, Jianrong Bi, Zhongwei Huang, Jianping Huang, Jinsen Shi, Beidou Zhang and Wu Zhang / Atmosphere 2018, 9, 173; doi:10.3390/atmos9050173, www.mdpi.com/journal/atmosphere
+# Comparison of Portable Emissions Measurement Systems (PEMS) with Laboratory Grade Equipment / Roberto Aliandro Varella 1, Barouch Giechaskiel 2,*, Luís Sousa 1 and Gonçalo Duarte / Appl. Sci. 2018, 8, 1633; doi:10.3390/app8091633, www.mdpi.com/journal/applsci
+# EPA Handbook: Optical and Remote Sensing for Measurement and Monitoring of Emissions Flux of Gases and Particulate Matter / United States Environmental Protection Agency / Publication No. EPA 454/B-18-008 August 2018
+# LED Mini Lidar for Atmospheric Application / Tatsuo Shiina / Sensors 2019, 19, 569; doi:10.3390/s19030569, www.mdpi.com/journal/sensors
+# Measuring On-Road Vehicle Emissions with Multiple Instruments Including Remote Sensing / Robin Smit and Phil Kingston / Atmosphere 2019, 10, 516; doi:10.3390/atmos10090516, www.mdpi.com/journal/atmosphere
+
+!! Model for sustainable development
+
+Ensuring the sustainable development of the metropolitan air quality management infrastructure can only be achieved by taking into account the interests of all stakeholders so that this system becomes economically self-sufficient. To do this, an appropriate business model has to be developed as a tool establishing the sustainability and the irreversible institutional modernization. The outline of this business model is presented below:
+
+[img[img-business-model-AIRQM.svg]]

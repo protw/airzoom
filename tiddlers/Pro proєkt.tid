@@ -1,0 +1,42 @@
+created: 20190927144258695
+list: Проект Інформація [[Про проект]] Документи Новини
+list-before: $:/core/ui/SideBar/Open
+modified: 20210108122253884
+tags: $:/tags/SideBar
+title: Про проєкт
+
+<a href="#Опис%20проекту%20Громадського%20бюджету" class="myButton" target="_self"><<doc-svg $:/boa/img/fa5/bolt White>>&nbsp;&nbsp;''Початок''</a>
+<a href="#Проєкт%20AirZOOM" class="myButton" target="_self"><<doc-svg $:/boa/img/fa5/list-alt White>>&nbsp;&nbsp;''Статті''</a>
+<a href="https://airly.org/map/en/#50.441068,30.439526,i10001" class="myButton" target="_blank"><<doc-svg $:/boa/img/fa5/map-marker-alt White>>&nbsp;&nbsp;''Мапа''</a>
+
+
+<a href="https://protw.github.io/azreal" class="myButton" target="_blank"><<doc-svg $:/boa/img/fa5/book White>>&nbsp;&nbsp;''Документація''</a>
+<a href="https://protw.github.io/azreal/#/media/team" class="myButton" target="_blank"><<doc-svg $:/boa/img/fa5/users White>>&nbsp;&nbsp;''Команда''</a>
+
+<style>
+.myButton {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:10px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:13px 13px;
+	margin-bottom:6px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+</style>
+<!-- #EB5F5F -->

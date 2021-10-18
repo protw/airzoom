@@ -1,0 +1,6 @@
+created: 20190927133010061
+modified: 20201227184005702
+tags: [[Про проєкт]]
+title: Новини
+
+<<list-links filter:"[!has[draft.of]tag[Новини]!sort[created]]">>
